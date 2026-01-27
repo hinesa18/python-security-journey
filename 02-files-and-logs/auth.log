@@ -1,0 +1,42 @@
+INFO System boot completed
+INFO Network interface initialized
+INFO User admin login successful
+INFO Session started for user admin
+WARNING Disk usage at 85 percent
+INFO User guest login successful
+INFO Connection established from 192.168.1.10
+ERROR User failed login attempt from 192.168.1.15
+INFO Retrying authentication
+ERROR User failed login attempt from 192.168.1.15
+INFO User admin login successful
+INFO User admin performed configuration change
+ERROR User failed login attempt from 192.168.1.22
+WARNING Multiple authentication failures detected
+INFO User guest login successful
+INFO Connection closed for session 2341
+INFO User backup login successful
+ERROR User failed login attempt from 10.0.0.5
+ERROR User failed login attempt from 10.0.0.5
+INFO Firewall rule updated
+INFO User service_account login successful
+INFO Scheduled job executed successfully
+ERROR User failed login attempt from 172.16.0.3
+INFO Monitoring agent heartbeat received
+INFO User admin login successful
+INFO User admin logout
+INFO User guest logout
+WARNING Suspicious activity detected
+ERROR User failed login attempt from 172.16.0.3
+INFO Account lockout threshold nearing
+INFO User guest login successful
+INFO System maintenance task completed
+INFO User admin login successful
+INFO User admin login successful
+ERROR User failed login attempt from 192.168.1.30
+ERROR User failed login attempt from 192.168.1.30
+ERROR User failed login attempt from 192.168.1.30
+WARNING Possible brute force attack detected
+INFO Security alert generated
+INFO Administrator notified
+INFO User admin login successful
+INFO System running normally

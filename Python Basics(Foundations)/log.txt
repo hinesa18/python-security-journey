@@ -1,0 +1,12 @@
+INFO System started successfully
+INFO User login successful
+WARNING Disk space low
+System failed during authentication
+INFO Retrying connection
+FAILED password attempt
+INFO Connection established
+User failed to authenticate
+ERROR Timeout occurred
+INFO Backup completed
+failed to write to disk
+INFO System shutdown
