@@ -24,4 +24,4 @@ with open(FILE, 'r') as file:
 if failed_count >= 3:
     print("Warning, your account has had " + str(failed_count) + " login attempts!")
 
-print("Out of " + str(line_count) + " lines. Your account was logged into " + login_count + " times. \nWith" + failed_count + " failed login attempts")
+print("Out of " + str(line_count) + " lines. Your account was logged into " + str(login_count) + " times. \nWith " + str(failed_count) + " failed login attempts")

@@ -1,0 +1,44 @@
+[
+  {
+    "GroupId": "sg-001",
+    "GroupName": "web-prod",
+    "IpPermissions": [
+      {
+        "FromPort": 22,
+        "ToPort": 22,
+        "IpProtocol": "tcp",
+        "IpRanges": [{"CidrIp": "0.0.0.0/0"}]
+      },
+      {
+        "FromPort": 443,
+        "ToPort": 443,
+        "IpProtocol": "tcp",
+        "IpRanges": [{"CidrIp": "0.0.0.0/0"}]
+      }
+    ]
+  },
+  {
+    "GroupId": "sg-002",
+    "GroupName": "db-prod",
+    "IpPermissions": [
+      {
+        "FromPort": 5432,
+        "ToPort": 5432,
+        "IpProtocol": "tcp",
+        "IpRanges": [{"CidrIp": "10.0.0.0/16"}]
+      }
+    ]
+  },
+  {
+    "GroupId": "sg-003",
+    "GroupName": "rdp-open",
+    "IpPermissions": [
+      {
+        "FromPort": 3389,
+        "ToPort": 3389,
+        "IpProtocol": "tcp",
+        "IpRanges": [{"CidrIp": "0.0.0.0/0"}]
+      }
+    ]
+  }
+]
